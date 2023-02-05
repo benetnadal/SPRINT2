@@ -1,0 +1,69 @@
+
+// Custom variables
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$success: #7A7A7A;
+$warning: #252b46;
+
+$accordion-icon-color: $primary;
+$accordion-icon-width: 1.5rem;
+
+$nav-tabs-link-active-border-color: #FFFFFF #FFFFFF $secondary ;
+
+$nav-tabs-link-hover-border-color:  #FFFFFF #FFFFFF #e9ecef ;
+
+$nav-link-color:  $success;
+$nav-link-hover-color:  $secondary;
+$navbar-light-hover-color:  $secondary;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+   --bs-body-font-family:  'Rubik', sans-serif;
+}
+
+
+
+
+.btn-secondary:hover {
+  color: $secondary !important;
+  background-color: white;
+  border: 2px solid $secondary;
+}
+
+.btn-primary:hover {
+  color: $primary !important;
+  border: 2px solid $primary;
+  background-color: white;
+}
+
+.btn-light:hover {
+  color: #7A7A7A !important;
+  border: 2px solid #7A7A7A;
+  background-color: white;
+}
+
+ .collapsed:hover {
+  color: #FA5959 ;
+}
+
+ .footer:hover {
+  color: #FA5959 !important;
+}     
+
+
+
+
+
+
+
+
+
+
+
